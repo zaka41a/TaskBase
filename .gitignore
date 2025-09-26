@@ -1,0 +1,34 @@
+# Node / Monorepo
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+package-lock.json
+
+# Builds / caches
+dist/
+.build/
+.cache/
+.vite/
+*.tsbuildinfo
+
+# Vite (client)
+client-app/dist/
+client-app/.vite/
+
+# Server
+server/taskbase.db
+server/taskbase.db-*
+server/*.sqlite
+server/.env
+
+# Env (général)
+.env
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# macOS
+.DS_Store
