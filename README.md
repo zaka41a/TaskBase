@@ -20,11 +20,3 @@ A tiny full-stack app to practice **React** (Vite) and **Node.js/Express** with 
 - Node.js ≥ 18
 - npm
 
-## Quick Start
-
-### 1) Backend (API)
-```bash
-cd server
-npm i
-# Create .env (see below), then:
-npm run dev
