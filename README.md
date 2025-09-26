@@ -15,19 +15,6 @@ A tiny full-stack app to practice **React** (Vite) and **Node.js/Express** with 
 - Per-user data isolation (todos belong to the logged-in user)
 - Simple, readable codebase
 
-## Project Structure
-TaskBase/
-├─ server/ # Node.js API (Express + SQLite)
-│ ├─ index.js
-│ ├─ .env
-│ └─ package.json
-└─ client-app/ # React app (Vite)
-├─ src/
-│ ├─ api.js
-│ ├─ App.jsx
-│ └─ main.jsx
-├─ index.html
-└─ package.json
 
 ## Prerequisites
 - Node.js ≥ 18
